@@ -20,6 +20,14 @@
 <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4/fonts/remixicon.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<!-- GA4: same property as userguiding.com and the WOE games (added 2026-09-25) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EP331KDLPN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-EP331KDLPN');
+</script>
 <style>
 /* ---------- Gilroy ---------- */
 @font-face { font-family:'Gilroy'; font-weight:400; src:url('../fonts/Gilroy-Regular.otf')  format('opentype'); }
@@ -1471,5 +1479,6 @@ document.addEventListener('DOMContentLoaded', shuffleAnswers);
 // Play mode is the only mode now. setMode kept as a no-op for any stray callers.
 function setMode(_m){ /* no-op */ }
 </script>
+<script src="../js/analytics.js"></script>
 </body>
 </html>
